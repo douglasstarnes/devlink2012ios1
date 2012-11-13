@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		804797C415EC45BB00D40337 /* CirclesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 804797C215EC45BB00D40337 /* CirclesViewController.m */; };
+		804797C515EC45BB00D40337 /* CirclesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 804797C315EC45BB00D40337 /* CirclesViewController.xib */; };
+		804797C915EC474900D40337 /* RectanglesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 804797C815EC474900D40337 /* RectanglesView.m */; };
+		804797CD15EC483200D40337 /* RectanglesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 804797CB15EC483200D40337 /* RectanglesViewController.m */; };
+		804797CE15EC483200D40337 /* RectanglesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 804797CC15EC483200D40337 /* RectanglesViewController.xib */; };
+		804797D215EC496C00D40337 /* LinesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 804797D015EC496C00D40337 /* LinesViewController.m */; };
+		804797D315EC496C00D40337 /* LinesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 804797D115EC496C00D40337 /* LinesViewController.xib */; };
+		804797D615EC49EE00D40337 /* LinesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 804797D515EC49EE00D40337 /* LinesView.m */; };
+		804AD06215EBC88400E75330 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 804AD06115EBC88400E75330 /* UIKit.framework */; };
+		804AD06415EBC88400E75330 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 804AD06315EBC88400E75330 /* Foundation.framework */; };
+		804AD06615EBC88400E75330 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 804AD06515EBC88400E75330 /* CoreGraphics.framework */; };
+		804AD06C15EBC88400E75330 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 804AD06A15EBC88400E75330 /* InfoPlist.strings */; };
+		804AD06E15EBC88400E75330 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 804AD06D15EBC88400E75330 /* main.m */; };
+		804AD07215EBC88400E75330 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 804AD07115EBC88400E75330 /* AppDelegate.m */; };
+		804AD07515EBC88400E75330 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 804AD07315EBC88400E75330 /* MainStoryboard.storyboard */; };
+		804AD07815EBC88400E75330 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 804AD07715EBC88400E75330 /* ViewController.m */; };
+		804AD08015EBC8B100E75330 /* CirclesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 804AD07F15EBC8B100E75330 /* CirclesView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		804797C115EC45BB00D40337 /* CirclesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CirclesViewController.h; sourceTree = "<group>"; };
+		804797C215EC45BB00D40337 /* CirclesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CirclesViewController.m; sourceTree = "<group>"; };
+		804797C315EC45BB00D40337 /* CirclesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CirclesViewController.xib; sourceTree = "<group>"; };
+		804797C715EC474900D40337 /* RectanglesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RectanglesView.h; sourceTree = "<group>"; };
+		804797C815EC474900D40337 /* RectanglesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RectanglesView.m; sourceTree = "<group>"; };
+		804797CA15EC483200D40337 /* RectanglesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RectanglesViewController.h; sourceTree = "<group>"; };
+		804797CB15EC483200D40337 /* RectanglesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RectanglesViewController.m; sourceTree = "<group>"; };
+		804797CC15EC483200D40337 /* RectanglesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RectanglesViewController.xib; sourceTree = "<group>"; };
+		804797CF15EC496C00D40337 /* LinesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinesViewController.h; sourceTree = "<group>"; };
+		804797D015EC496C00D40337 /* LinesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinesViewController.m; sourceTree = "<group>"; };
+		804797D115EC496C00D40337 /* LinesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LinesViewController.xib; sourceTree = "<group>"; };
+		804797D415EC49EE00D40337 /* LinesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinesView.h; sourceTree = "<group>"; };
+		804797D515EC49EE00D40337 /* LinesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinesView.m; sourceTree = "<group>"; };
+		804AD05D15EBC88400E75330 /* CustomViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		804AD06115EBC88400E75330 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		804AD06315EBC88400E75330 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		804AD06515EBC88400E75330 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		804AD06915EBC88400E75330 /* CustomViewDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomViewDemo-Info.plist"; sourceTree = "<group>"; };
+		804AD06B15EBC88400E75330 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		804AD06D15EBC88400E75330 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		804AD06F15EBC88400E75330 /* CustomViewDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomViewDemo-Prefix.pch"; sourceTree = "<group>"; };
+		804AD07015EBC88400E75330 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		804AD07115EBC88400E75330 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		804AD07415EBC88400E75330 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		804AD07615EBC88400E75330 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		804AD07715EBC88400E75330 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		804AD07E15EBC8B100E75330 /* CirclesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CirclesView.h; sourceTree = "<group>"; };
+		804AD07F15EBC8B100E75330 /* CirclesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CirclesView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		804AD05A15EBC88400E75330 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				804AD06215EBC88400E75330 /* UIKit.framework in Frameworks */,
+				804AD06415EBC88400E75330 /* Foundation.framework in Frameworks */,
+				804AD06615EBC88400E75330 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		804AD05215EBC88400E75330 = {
+			isa = PBXGroup;
+			children = (
+				804AD06715EBC88400E75330 /* CustomViewDemo */,
+				804AD06015EBC88400E75330 /* Frameworks */,
+				804AD05E15EBC88400E75330 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		804AD05E15EBC88400E75330 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				804AD05D15EBC88400E75330 /* CustomViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		804AD06015EBC88400E75330 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				804AD06115EBC88400E75330 /* UIKit.framework */,
+				804AD06315EBC88400E75330 /* Foundation.framework */,
+				804AD06515EBC88400E75330 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		804AD06715EBC88400E75330 /* CustomViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				804AD07015EBC88400E75330 /* AppDelegate.h */,
+				804AD07115EBC88400E75330 /* AppDelegate.m */,
+				804AD07315EBC88400E75330 /* MainStoryboard.storyboard */,
+				804AD07615EBC88400E75330 /* ViewController.h */,
+				804AD07715EBC88400E75330 /* ViewController.m */,
+				804AD06815EBC88400E75330 /* Supporting Files */,
+				804AD07E15EBC8B100E75330 /* CirclesView.h */,
+				804AD07F15EBC8B100E75330 /* CirclesView.m */,
+				804797C115EC45BB00D40337 /* CirclesViewController.h */,
+				804797C215EC45BB00D40337 /* CirclesViewController.m */,
+				804797C315EC45BB00D40337 /* CirclesViewController.xib */,
+				804797C715EC474900D40337 /* RectanglesView.h */,
+				804797C815EC474900D40337 /* RectanglesView.m */,
+				804797CA15EC483200D40337 /* RectanglesViewController.h */,
+				804797CB15EC483200D40337 /* RectanglesViewController.m */,
+				804797CC15EC483200D40337 /* RectanglesViewController.xib */,
+				804797CF15EC496C00D40337 /* LinesViewController.h */,
+				804797D015EC496C00D40337 /* LinesViewController.m */,
+				804797D115EC496C00D40337 /* LinesViewController.xib */,
+				804797D415EC49EE00D40337 /* LinesView.h */,
+				804797D515EC49EE00D40337 /* LinesView.m */,
+			);
+			path = CustomViewDemo;
+			sourceTree = "<group>";
+		};
+		804AD06815EBC88400E75330 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				804AD06915EBC88400E75330 /* CustomViewDemo-Info.plist */,
+				804AD06A15EBC88400E75330 /* InfoPlist.strings */,
+				804AD06D15EBC88400E75330 /* main.m */,
+				804AD06F15EBC88400E75330 /* CustomViewDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		804AD05C15EBC88400E75330 /* CustomViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 804AD07B15EBC88400E75330 /* Build configuration list for PBXNativeTarget "CustomViewDemo" */;
+			buildPhases = (
+				804AD05915EBC88400E75330 /* Sources */,
+				804AD05A15EBC88400E75330 /* Frameworks */,
+				804AD05B15EBC88400E75330 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomViewDemo;
+			productName = CustomViewDemo;
+			productReference = 804AD05D15EBC88400E75330 /* CustomViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		804AD05415EBC88400E75330 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Douglas Starnes";
+			};
+			buildConfigurationList = 804AD05715EBC88400E75330 /* Build configuration list for PBXProject "CustomViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 804AD05215EBC88400E75330;
+			productRefGroup = 804AD05E15EBC88400E75330 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				804AD05C15EBC88400E75330 /* CustomViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		804AD05B15EBC88400E75330 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				804AD06C15EBC88400E75330 /* InfoPlist.strings in Resources */,
+				804AD07515EBC88400E75330 /* MainStoryboard.storyboard in Resources */,
+				804797C515EC45BB00D40337 /* CirclesViewController.xib in Resources */,
+				804797CE15EC483200D40337 /* RectanglesViewController.xib in Resources */,
+				804797D315EC496C00D40337 /* LinesViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		804AD05915EBC88400E75330 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				804AD06E15EBC88400E75330 /* main.m in Sources */,
+				804AD07215EBC88400E75330 /* AppDelegate.m in Sources */,
+				804AD07815EBC88400E75330 /* ViewController.m in Sources */,
+				804AD08015EBC8B100E75330 /* CirclesView.m in Sources */,
+				804797C415EC45BB00D40337 /* CirclesViewController.m in Sources */,
+				804797C915EC474900D40337 /* RectanglesView.m in Sources */,
+				804797CD15EC483200D40337 /* RectanglesViewController.m in Sources */,
+				804797D215EC496C00D40337 /* LinesViewController.m in Sources */,
+				804797D615EC49EE00D40337 /* LinesView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		804AD06A15EBC88400E75330 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				804AD06B15EBC88400E75330 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		804AD07315EBC88400E75330 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				804AD07415EBC88400E75330 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		804AD07915EBC88400E75330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		804AD07A15EBC88400E75330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		804AD07C15EBC88400E75330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomViewDemo/CustomViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "CustomViewDemo/CustomViewDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		804AD07D15EBC88400E75330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomViewDemo/CustomViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "CustomViewDemo/CustomViewDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		804AD05715EBC88400E75330 /* Build configuration list for PBXProject "CustomViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				804AD07915EBC88400E75330 /* Debug */,
+				804AD07A15EBC88400E75330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		804AD07B15EBC88400E75330 /* Build configuration list for PBXNativeTarget "CustomViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				804AD07C15EBC88400E75330 /* Debug */,
+				804AD07D15EBC88400E75330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 804AD05415EBC88400E75330 /* Project object */;
+}
